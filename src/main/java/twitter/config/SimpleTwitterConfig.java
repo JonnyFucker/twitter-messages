@@ -18,7 +18,7 @@ public class SimpleTwitterConfig {
     public SimpleTwitterConfig() {
 
         if (twitter == null) {
-            twitter = new TwitterTemplate("oznLh8eKfSOWWBgdCGmh2M9zY","CO92ffOzFI9jx91r7dbMbEPQLWZjjt6B8eT8IEH9WPoDBa4R4a","787699883201396736-AiRwCm3REDZTtihEeqHqhjidaBJIxre","h588v4ZtNl8ruALtq9ZUste7UObPEjO2caO4r5CWgQ4fW");
+            twitter = new TwitterTemplate();
         }
     }
 
